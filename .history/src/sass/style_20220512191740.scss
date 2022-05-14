@@ -1,0 +1,26 @@
+.wrapper {
+  @apply px-5 xs:px-7 sm:px-16 md:px-20 lg:px-28;
+}
+.wrapper-l {
+  @apply pl-5 xs:pl-7 sm:pl-16 md:pl-20 lg:pl-28;
+}
+.wrapper-r {
+  @apply pr-5 xs:pr-7 sm:pr-16 md:pr-20 lg:pr-28;
+}
+img {
+  max-width: 100%;
+}
+
+nav {
+  @apply bg-white absolute top-full  rounded-md text-lg 
+  font-bold left-0 right-0 mx-5 xs:mx-7 sm:mx-16 md:m-0 overflow-hidden
+   text-dark-blue h-0 md:!h-full;
+  ul {
+    @apply py-10 px-8 flex flex-col items-center gap-5;
+  }
+  li {
+    a {
+      @apply hover:opacity-50;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.container {
+  @apply px-10;
+  //   @apply px-5 xs:px-7 sm:px-16 md:px-20 lg:px-28;
+}
+.container-l {
+  @apply pl-5 xs:pl-7 sm:pl-16 md:pl-20 lg:pl-28;
+}
+.container-r {
+  @apply pr-5 xs:pr-7 sm:pr-16 md:pr-20 lg:pr-28;
+}
+img {
+  max-width: 100%;
+}

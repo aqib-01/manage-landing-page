@@ -1,0 +1,12 @@
+.container {
+  @apply mx-5 xs:mx-7 sm:mx-16 md:mx-20 lg:mx-28;
+}
+.container-l {
+  @apply ml-5 xs:ml-7 sm:ml-16 md:ml-20 lg:ml-28;
+}
+.container-r {
+  @apply mr-5 xs:mr-7 sm:mr-16 md:mr-20 lg:mr-28;
+}
+img {
+  max-width: 100%;
+}

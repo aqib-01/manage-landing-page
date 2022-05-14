@@ -1,0 +1,30 @@
+.wrapper {
+  @apply px-5 xs:px-7 sm:px-16 lg:px-24;
+}
+.wrapper-l {
+  @apply pl-5 xs:pl-7 sm:pl-16  lg:pl-28;
+}
+.wrapper-r {
+  @apply pr-5 xs:pr-7 sm:pr-16 md:pr-20 lg:pr-28;
+}
+img {
+  max-width: 100%;
+}
+
+nav {
+  @apply bg-white absolute top-full  rounded-md text-lg 
+  font-bold left-0 right-0 mx-5 xs:mx-7 sm:mx-16 md:m-0 overflow-hidden
+   text-dark-blue h-0 md:relative md:inset-auto md:overflow-visible
+   md:bg-transparent md:text-base;
+  ul {
+    @apply py-10 px-8 flex flex-col items-center gap-5 md:gap-8 md:flex-row md:p-0;
+  }
+  li {
+    a {
+      @apply hover:opacity-50;
+    }
+  }
+}
+.get-start-btn {
+  @apply font-bold  bg-bright-red px-6 py-3 rounded-full text-white;
+}
